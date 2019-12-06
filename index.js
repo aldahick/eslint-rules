@@ -69,7 +69,13 @@ module.exports = {
     "@typescript-eslint/prefer-for-of": "error",
     "@typescript-eslint/prefer-function-type": "error",
     "@typescript-eslint/prefer-namespace-keyword": "error",
-    "@typescript-eslint/quotes": "error",
+    "@typescript-eslint/quotes": [
+      "error",
+      "double",
+      {
+        "avoidEscape": true
+      }
+    ],
     "@typescript-eslint/semi": [
       "error",
       "always"
