@@ -150,7 +150,11 @@ module.exports = {
     "radix": "error",
     "space-before-function-paren": [
       "error",
-      "never"
+      {
+        "anonymous": "never",
+        "named": "never",
+        "asyncArrow": "always"
+      }
     ],
     "spaced-comment": "error",
     "use-isnan": "error",
