@@ -159,6 +159,7 @@ module.exports = {
       }
     ],
     "spaced-comment": "error",
+    "template-curly-spacing": "error",
     "use-isnan": "error",
     "valid-typeof": "off"
   }
