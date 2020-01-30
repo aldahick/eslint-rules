@@ -135,6 +135,7 @@ module.exports = {
     "no-unsafe-finally": "error",
     "no-unused-expressions": "error",
     "no-unused-labels": "error",
+    "no-useless-concat": "error",
     "no-var": "error",
     "object-shorthand": "error",
     "one-var": [
@@ -143,6 +144,7 @@ module.exports = {
     ],
     "prefer-arrow/prefer-arrow-functions": "error",
     "prefer-const": "error",
+    "prefer-template": "error",
     "quote-props": [
       "error",
       "consistent-as-needed"
