@@ -13,13 +13,13 @@
     "bump": "git add . && git commit && npm version patch && npm publish && git push"
   },
   "peerDependencies": {
-    "typescript": "3.7.x"
+    "typescript": "3.8.x"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "2.19.2",
-    "@typescript-eslint/parser": "2.19.2",
-    "eslint": "6.8.0",
-    "eslint-plugin-import": "2.19.1",
-    "eslint-plugin-prefer-arrow": "1.1.7"
+    "@typescript-eslint/eslint-plugin": "^2.23.0",
+    "@typescript-eslint/parser": "^2.19.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prefer-arrow": "^1.1.7"
   }
 }
