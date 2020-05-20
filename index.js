@@ -84,6 +84,25 @@ module.exports = {
     "@typescript-eslint/triple-slash-reference": "error",
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/unified-signatures": "error",
+    "simple-import-sort/sort": [
+      "error",
+      {
+        "groups": [
+          [
+            "^react$",
+            // Packages.
+            // Things that start with a letter (or digit or underscore), or `@` followed by a letter.
+            "^@?\\w",
+            // Absolute imports and other imports such as Vue-style `@/foo`.
+            // Anything that does not start with a dot.
+            "^[^.]",
+            // Relative imports.
+            // Anything that starts with a dot.
+            "^\\."
+          ]
+        ]
+      }
+    ],
     "arrow-body-style": "error",
     "arrow-parens": [
       "error",
@@ -102,7 +121,7 @@ module.exports = {
     "guard-for-in": "error",
     "id-blacklist": "off",
     "id-match": "off",
-    "import/order": "error",
+    "import/order": "off",
     "max-classes-per-file": [
       "error",
       1
