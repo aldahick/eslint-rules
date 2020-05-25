@@ -13,11 +13,11 @@
     "bump": "git add . && git commit && npm version patch && npm publish && git push"
   },
   "peerDependencies": {
-    "typescript": "3.8.x"
+    "typescript": "3.9.x"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.34.0",
-    "@typescript-eslint/parser": "^2.34.0",
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb": "^18.1.0",
     "eslint-plugin-import": "^2.20.2",
