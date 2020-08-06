@@ -1,13 +1,16 @@
+const config = require("./index");
+
 module.exports = {
+  ...config,
   "env": {
     "browser": true,
     "es6": true
   },
   "extends": [
-    "airbnb",
-    "./index"
+    "airbnb"
   ],
   "rules": {
+    ...config.rules,
     "@typescript-eslint/indent": "off",
     "import/extensions": "off",
     "import/prefer-default-export": "off",
