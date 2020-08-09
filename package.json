@@ -1,6 +1,6 @@
 {
   "name": "@aldahick/eslint-rules",
-  "version": "0.7.5",
+  "version": "0.8.0",
   "description": "ESLint rules for my personal projects",
   "author": "Alex Hicks <alex@alexhicks.net> (https://alexhicks.net)",
   "license": "MIT",
@@ -8,9 +8,6 @@
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/aldahick/eslint-rules.git"
-  },
-  "scripts": {
-    "bump": "git add . && git commit && npm version patch && npm publish && git push"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^3.8.0",
