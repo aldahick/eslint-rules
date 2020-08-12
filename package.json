@@ -1,6 +1,6 @@
 {
   "name": "@aldahick/eslint-rules",
-  "version": "0.8.1",
+  "version": "0.8.2",
   "description": "ESLint rules for my personal projects",
   "author": "Alex Hicks <alex@alexhicks.net> (https://alexhicks.net)",
   "license": "MIT",
