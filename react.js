@@ -39,6 +39,8 @@ module.exports = {
       }
     ],
     "@typescript-eslint/no-extra-parens": "off",
+    // requires eslint >=7.1.0, react-scripts bundles 6.x
+    "@typescript-eslint/no-loss-of-precision": "off",
     "@typescript-eslint/no-unused-vars": [
       "error",
       {
