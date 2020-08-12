@@ -10,11 +10,45 @@ module.exports = {
     "react",
     "react-hooks"
   ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
   "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "@typescript-eslint/naming-convention": [
+      "error",
+      {
+        "selector": "default",
+        "format": ["camelCase"],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow"
+      },
+      {
+        "selector": "variable",
+        // only difference from default is that PascalCase is added here,
+        // for functional components
+        "format": ["camelCase", "PascalCase", "UPPER_CASE"],
+        "leadingUnderscore": "allow",
+        "trailingUnderscore": "allow"
+      },
+      {
+        "selector": "typeLike",
+        "format": ["PascalCase"]
+      }
+    ],
+    "@typescript-eslint/no-extra-parens": "off",
+    "@typescript-eslint/no-unused-vars": [
+      "error",
+      {
+        "varsIgnorePattern": "^React$"
+      }
+    ],
+    "@typescript-eslint/unbound-method": "off",
     "react/boolean-prop-naming": "error",
     "react/button-has-type": "error",
     "react/destructuring-assignment": "error",
-    "react/forbid-component-props": "error",
     "react/forbid-dom-props": [
       "error",
       {
@@ -61,7 +95,6 @@ module.exports = {
         "max": 6
       }
     ],
-    "react/jsx-no-bind": "error",
     "react/jsx-no-comment-textnodes": "error",
     "react/jsx-no-duplicate-props": "error",
     "react/jsx-no-script-url": "error",
@@ -77,6 +110,7 @@ module.exports = {
     "react/jsx-pascal-case": "error",
     "react/jsx-props-no-multi-spaces": "error",
     "react/jsx-tag-spacing": "error",
+    "react/jsx-uses-vars": "error",
     "react/jsx-wrap-multilines": [
       "error",
       {
@@ -96,7 +130,6 @@ module.exports = {
     "react/no-danger-with-children": "error",
     "react/no-deprecated": "error",
     "react/no-find-dom-node": "error",
-    "react/no-multi-comp": "error",
     "react/no-this-in-sfc": "error",
     "react/no-unescaped-entities": "error",
     "react/no-unknown-property": "error",
