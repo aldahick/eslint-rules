@@ -41,12 +41,6 @@ module.exports = {
     "@typescript-eslint/no-extra-parens": "off",
     // requires eslint >=7.1.0, react-scripts bundles 6.x
     "@typescript-eslint/no-loss-of-precision": "off",
-    "@typescript-eslint/no-unused-vars": [
-      "error",
-      {
-        "varsIgnorePattern": "^React$"
-      }
-    ],
     "@typescript-eslint/unbound-method": "off",
     "react/boolean-prop-naming": "error",
     "react/button-has-type": "error",
@@ -112,6 +106,7 @@ module.exports = {
     "react/jsx-pascal-case": "error",
     "react/jsx-props-no-multi-spaces": "error",
     "react/jsx-tag-spacing": "error",
+    "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
     "react/jsx-wrap-multilines": [
       "error",

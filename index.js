@@ -149,6 +149,12 @@ module.exports = {
     "@typescript-eslint/no-unsafe-member-access": "error",
     "@typescript-eslint/no-unsafe-return": "error",
     "@typescript-eslint/no-unused-expressions": "error",
+    // "@typescript-eslint/no-unused-vars-experimental": [
+    //   "error",
+    //   {
+    //     "ignoreArgsIfArgsAfterAreUsed": true
+    //   }
+    // ],
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-useless-constructor": "error",
