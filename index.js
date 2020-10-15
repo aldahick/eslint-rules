@@ -138,6 +138,12 @@ module.exports = {
     "@typescript-eslint/no-non-null-asserted-optional-chain": "error",
     "@typescript-eslint/no-non-null-assertion": "error",
     "@typescript-eslint/no-require-imports": "error",
+    "@typescript-eslint/no-shadow": [
+      "error",
+      {
+        "hoist": "all"
+      }
+    ],
     "@typescript-eslint/no-this-alias": "error",
     "@typescript-eslint/no-throw-literal": "error",
     "@typescript-eslint/no-unnecessary-boolean-literal-compare": "error",
@@ -149,12 +155,6 @@ module.exports = {
     "@typescript-eslint/no-unsafe-member-access": "error",
     "@typescript-eslint/no-unsafe-return": "error",
     "@typescript-eslint/no-unused-expressions": "error",
-    // "@typescript-eslint/no-unused-vars-experimental": [
-    //   "error",
-    //   {
-    //     "ignoreArgsIfArgsAfterAreUsed": true
-    //   }
-    // ],
     "@typescript-eslint/no-unused-vars": "error",
     "@typescript-eslint/no-use-before-define": "error",
     "@typescript-eslint/no-useless-constructor": "error",
@@ -199,25 +199,7 @@ module.exports = {
     "@typescript-eslint/unbound-method": "error",
     "@typescript-eslint/unified-signatures": "error",
     "prefer-arrow/prefer-arrow-functions": "error",
-    "simple-import-sort/sort": [
-      "error",
-      {
-        "groups": [
-          [
-            "^react$",
-            // Packages.
-            // Things that start with a letter (or digit or underscore), or `@` followed by a letter.
-            "^@?\\w",
-            // Absolute imports and other imports such as Vue-style `@/foo`.
-            // Anything that does not start with a dot.
-            "^[^.]",
-            // Relative imports.
-            // Anything that starts with a dot.
-            "^\\."
-          ]
-        ]
-      }
-    ],
+    "simple-import-sort/sort": "error",
     "arrow-body-style": "error",
     "arrow-parens": [
       "error",
@@ -241,12 +223,6 @@ module.exports = {
     "no-new-wrappers": "error",
     "no-redeclare": "error",
     "no-return-await": "error",
-    "no-shadow": [
-      "error",
-      {
-        "hoist": "all"
-      }
-    ],
     "no-throw-literal": "error",
     "no-trailing-spaces": "error",
     "no-undef-init": "error",
