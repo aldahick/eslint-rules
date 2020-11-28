@@ -12,7 +12,7 @@ module.exports = {
   ],
   "settings": {
     "react": {
-      "version": "detect"
+      "version": "17"
     }
   },
   "rules": {
@@ -39,8 +39,6 @@ module.exports = {
       }
     ],
     "@typescript-eslint/no-extra-parens": "off",
-    // requires eslint >=7.1.0, react-scripts bundles 6.x
-    "@typescript-eslint/no-loss-of-precision": "off",
     "@typescript-eslint/unbound-method": "off",
     "react/boolean-prop-naming": "error",
     "react/button-has-type": "error",

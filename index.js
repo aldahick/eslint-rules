@@ -199,7 +199,8 @@ module.exports = {
     "@typescript-eslint/unbound-method": "error",
     "@typescript-eslint/unified-signatures": "error",
     "prefer-arrow/prefer-arrow-functions": "error",
-    "simple-import-sort/sort": "error",
+    "simple-import-sort/exports": "error",
+    "simple-import-sort/imports": "error",
     "arrow-body-style": "error",
     "arrow-parens": [
       "error",
