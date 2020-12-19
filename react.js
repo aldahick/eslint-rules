@@ -18,7 +18,7 @@ module.exports = {
   "rules": {
     "@typescript-eslint/explicit-function-return-type": "off",
     "@typescript-eslint/naming-convention": [
-      "error",
+      "warn",
       {
         "selector": "default",
         "format": ["camelCase"],
@@ -40,74 +40,74 @@ module.exports = {
     ],
     "@typescript-eslint/no-extra-parens": "off",
     "@typescript-eslint/unbound-method": "off",
-    "react/boolean-prop-naming": "error",
-    "react/button-has-type": "error",
-    "react/destructuring-assignment": "error",
+    "react/boolean-prop-naming": "warn",
+    "react/button-has-type": "warn",
+    "react/destructuring-assignment": "warn",
     "react/forbid-dom-props": [
-      "error",
+      "warn",
       {
         "forbid": ["id"]
       }
     ],
     "react/function-component-definition": [
-      "error",
+      "warn",
       {
         "namedComponents": "arrow-function",
         "unnamedComponents": "arrow-function"
       }
     ],
-    "react/jsx-boolean-value": "error",
-    "react/jsx-child-element-spacing": "error",
-    "react/jsx-closing-bracket-location": "error",
-    "react/jsx-closing-tag-location": "error",
-    "react/jsx-curly-brace-presence": "error",
-    "react/jsx-curly-newline": "error",
-    "react/jsx-curly-spacing": "error",
-    "react/jsx-equals-spacing": "error",
+    "react/jsx-boolean-value": "warn",
+    "react/jsx-child-element-spacing": "warn",
+    "react/jsx-closing-bracket-location": "warn",
+    "react/jsx-closing-tag-location": "warn",
+    "react/jsx-curly-brace-presence": "warn",
+    "react/jsx-curly-newline": "warn",
+    "react/jsx-curly-spacing": "warn",
+    "react/jsx-equals-spacing": "warn",
     "react/jsx-filename-extension": [
-      "error",
+      "warn",
       {
         "extensions": [".tsx"]
       }
     ],
-    "react/jsx-first-prop-new-line": "error",
-    "react/jsx-fragments": "error",
-    "react/jsx-handler-names": "error",
+    "react/jsx-first-prop-new-line": "warn",
+    "react/jsx-fragments": "warn",
+    "react/jsx-handler-names": "warn",
     "react/jsx-indent": [
-      "error",
+      "warn",
       2
     ],
     "react/jsx-key": [
-      "error",
+      "warn",
       {
         "checkFragmentShorthand": true
       }
     ],
     "react/jsx-max-depth": [
-      "error",
+      "warn",
       {
         "max": 6
       }
     ],
-    "react/jsx-no-comment-textnodes": "error",
-    "react/jsx-no-duplicate-props": "error",
-    "react/jsx-no-script-url": "error",
-    "react/jsx-no-target-blank": "error",
+    "react/jsx-no-comment-textnodes": "warn",
+    "react/jsx-no-duplicate-props": "warn",
+    "react/jsx-no-script-url": "warn",
+    "react/jsx-no-target-blank": "warn",
     "react/jsx-no-undef": [
-      "error",
+      "warn",
       {
         "allowGlobals": false
       }
     ],
-    "react/jsx-no-useless-fragment": "error",
-    "react/jsx-one-expression-per-line": "error",
-    "react/jsx-pascal-case": "error",
-    "react/jsx-props-no-multi-spaces": "error",
-    "react/jsx-tag-spacing": "error",
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error",
+    "react/jsx-no-useless-fragment": "warn",
+    "react/jsx-one-expression-per-line": "warn",
+    "react/jsx-pascal-case": "warn",
+    "react/jsx-props-no-multi-spaces": "warn",
+    "react/jsx-tag-spacing": "warn",
+    "react/jsx-uses-react": "warn",
+    "react/jsx-uses-vars": "warn",
     "react/jsx-wrap-multilines": [
-      "error",
+      "warn",
       {
         "declaration": "parens-new-line",
         "assignment": "parens-new-line",
@@ -119,25 +119,25 @@ module.exports = {
       }
     ],
     "react/no-access-state-in-setstate": "off",
-    "react/no-array-index-key": "error",
-    "react/no-children-prop": "error",
-    "react/no-danger": "error",
-    "react/no-danger-with-children": "error",
-    "react/no-deprecated": "error",
-    "react/no-find-dom-node": "error",
-    "react/no-this-in-sfc": "error",
-    "react/no-unescaped-entities": "error",
-    "react/no-unknown-property": "error",
-    "react/no-unsafe": "error",
-    "react/no-unused-prop-types": "error",
-    "react/no-unused-state": "error",
-    "react/prefer-stateless-function": "error",
-    "react/self-closing-comp": "error",
-    "react/state-in-constructor": "error",
-    "react/style-prop-object": "error",
-    "react/void-dom-elements-no-children": "error",
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "error",
+    "react/no-array-index-key": "warn",
+    "react/no-children-prop": "warn",
+    "react/no-danger": "warn",
+    "react/no-danger-with-children": "warn",
+    "react/no-deprecated": "warn",
+    "react/no-find-dom-node": "warn",
+    "react/no-this-in-sfc": "warn",
+    "react/no-unescaped-entities": "warn",
+    "react/no-unknown-property": "warn",
+    "react/no-unsafe": "warn",
+    "react/no-unused-prop-types": "warn",
+    "react/no-unused-state": "warn",
+    "react/prefer-stateless-function": "warn",
+    "react/self-closing-comp": "warn",
+    "react/state-in-constructor": "warn",
+    "react/style-prop-object": "warn",
+    "react/void-dom-elements-no-children": "warn",
+    "react-hooks/rules-of-hooks": "warn",
+    "react-hooks/exhaustive-deps": "warn",
     "max-classes-per-file": "off"
   }
 };
